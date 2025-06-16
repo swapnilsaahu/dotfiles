@@ -1,4 +1,4 @@
-# Dotfiles
+# dotfiles 
 
 ## Requirements 
 
@@ -22,13 +22,3 @@ to avoid conflicts in stow
 $ stow --adopt .
 ```
 moves the conflicting file/dir inside dotfiles 
-```
-```
-```
-```
-```
-```
-```
-```
-```
-```
