@@ -5,6 +5,11 @@
 vim.keymap.set("n", "<leader>th", ":split | terminal<CR>", { desc = "Terminal Horizontal" })
 vim.keymap.set("n", "<leader>tv", ":vsplit | terminal<CR>", { desc = "Terminal Vertical" })
 
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "n", "nzzzv")
+vim.keymap.set("n", "N", "Nzzzv")
+
 local harpoon = require("harpoon")
 
 vim.keymap.set("n", "<leader>a", function()
